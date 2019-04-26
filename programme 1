@@ -1,0 +1,17 @@
+class Bubble{
+public static void main(String args[]) {
+int nums[] = {99,463,10,287,18,29,49,5653,9,100123};
+int a,b,t;
+int size;
+size = 10;
+System.out.print("Original array is:");
+for(int i=0; i<size; i++);
+System.out.printin();
+for(a=1; a<size; a++)
+for(b=size-1; b>=a; b--) {
+if(nums[b-1] > nums[b]) {
+t = nums[b-1]
+nums[b-1] = nums[b];
+nums[b] = t;
+}
+} 

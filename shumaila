@@ -1,0 +1,29 @@
+class AssignARef {
+public static void main(string args[]) {
+int i;
+int nums1[]=new int[10];
+int nums2[]=new int[10];
+for(i=o; i<10; i++)
+num1[i]=i;
+for(i=o; i<10; i++)
+num1[i]=-i;
+System.out.print("Here is a nums1: ");
+for(i=o; i<10; i++)
+System.out.print("nums1[i] + " ");
+System.out.println();
+System.out.print("Here is a nums2: ");
+for(i=o; i<10; i++)
+System.out.print("nums2[i] + " ");
+System.out.println();
+nums2=nums1;
+System.out.print("Here is a nums2 after assigenment: ");
+for(i=o; i<10; i++)
+System.out.print("nums2[i] + " ");
+System.out.println();
+num2[3]=99;
+System.out.print("Here is nums1 after change through nums2: ");
+for(i=o; i<10; i++)
+System.out.print("nums2[i] + " ");
+System.out.println();
+}
+}
